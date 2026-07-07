@@ -1,0 +1,23 @@
+# data files -- too large for GitHub (>100MB each)
+data/eia930/
+data/egrid/
+data/hifld/transmission_lines.geojson
+data/lbnl_queue/
+
+# keep the us_states.geojson (87KB) -- small enough
+!data/hifld/us_states.geojson
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# anaconda project metadata
+anaconda_projects/
+
+# html map outputs
+*.html
+
+# OS
+.DS_Store
